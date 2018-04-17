@@ -1,0 +1,102 @@
+
+.about_content {
+	position: relative;
+	width: 980px;
+	margin: 0 auto;
+	padding-bottom: 400px;
+	background: #fff;
+	margin-top: 150px;
+}
+
+.about_content .middle_line {
+	position: absolute;
+	left: 50%;	
+	margin-left: -2.5px;
+	width: 5px;
+	height: 100%;
+	background: #666;
+
+}
+.about_content > div:not(:first-of-type) {
+	margin-top: -50px;
+}
+
+.about_content h1 {
+	margin-left: 200px;
+}
+.about_content p {
+	position: relative;
+	left: 380px;
+	top: 25px;
+}
+
+.about_content .name {
+	position: relative;
+	display: block;
+	clear: both;
+	margin: 0 auto;
+	top: -100px;
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	border: 35px solid #666;
+}
+
+.name-intro p {
+	width: 300px;
+	left: 600px;
+	top: -50px;
+}
+.about_content .phone {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 15px solid #666;
+}
+
+.phone_li {
+	margin-left: 600px;
+}
+.about_content .edu {
+	position: relative;
+	display: block;
+	clear: both;
+	margin: 0 auto;
+	top: 100px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 15px solid #666;
+
+}
+
+.about_content .practice {
+	position: relative;
+	display: block;
+	clear: both;
+	margin: 0 auto;
+	top: 100px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 15px solid #666;
+
+}
+.center_li {
+	margin-bottom: 30px;
+}
+.center_li h2{
+	position: relative;
+	display: block;
+	top: 80px;
+	width: 50px;
+	height: 30px;
+	margin-left: 425px;
+	border-radius: 5px;
+	border: 2px solid #666;
+	background: #fff;
+}
+

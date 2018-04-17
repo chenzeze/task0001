@@ -1,0 +1,84 @@
+
+
+	header {
+		position: relative;
+		width: 100%;
+		height: 80px;
+		background: purple;
+		color: #fff;
+	}
+	
+	.header_content {
+		position: relative;
+		width: 980px;
+		height: 100%;
+		margin: 0 auto;
+	}
+	.logo {
+		position: absolute;
+		left: 0;
+		bottom: 5px;
+	}
+	header nav {
+		position: absolute;
+		right: 0;
+		bottom: 5px;
+		font-size: 14px; 
+	}
+	header nav li {
+		width: 50px;
+	}
+
+	.icon {
+		position: absolute;
+		right: 10px;
+		bottom: 0;
+		width: 30px;
+		height: 34px;
+		background: url(../img/icon-github.png) no-repeat;
+		text-indent: -9999px;
+	}
+	
+.wrap {
+	background: #666;
+}
+footer {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	background: #000;
+	color: #fff;
+}
+footer nav {
+	overflow: hidden;
+	width: 400px;
+	margin: 0 auto;
+	padding: 15px 0;
+}
+footer nav li {
+	width: 100px;
+}
+
+
+.footer_content {
+	overflow: hidden;
+	border-top: 1px solid #fff;
+}
+
+.footer_content dl {
+	float: left;
+	width: 220px;
+	color: #fff;
+	text-align: left;
+}
+.footer_content dl:first-child {
+	margin-left: 120px;
+}
+
+.footer_licence {
+	text-align: center;
+}
+.footer_licence > .icon {
+	left: 50%;
+	margin-left: -15px;
+}
