@@ -2,7 +2,9 @@
 
 baidu_ife2015 初级班task001
 
-检错:1.header logo应该用a标签，包围img，方便logo的下载
+检错:
+
+    1.header logo应该用a标签，包围img，方便logo的下载
 
     2.github图标应该用a标签,图片为背景图，另外a标签中有文字说明Mygithub，用css隐藏起来,有利于seo
     
